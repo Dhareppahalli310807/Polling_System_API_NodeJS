@@ -1,0 +1,23 @@
+{
+  "name": "polling_system_api_nodejs",
+  "version": "1.0.0",
+  "description": "This is a API based polling system implemented using node.js, express.js, mongodb",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/Dhareppahalli310807Polling_Ststem_API_NodeJS"
+  },
+  "author": "Dhareppa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.7.5"
+  }
+}
